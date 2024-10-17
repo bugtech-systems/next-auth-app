@@ -1,5 +1,8 @@
+import React from 'react'
 import Link from 'next/link';
 import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
+
+
 
 export default function Header() {
   return (
@@ -29,5 +32,5 @@ export default function Header() {
         </nav>
       </div>
     </header>
-  );
+  )
 }
