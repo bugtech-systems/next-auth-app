@@ -5,11 +5,6 @@ export default function Home() {
         Welcome to Our Next Auth Application
       </h1>
       <div className='bg-white p-6 rounded-lg flex flex-col items-center'>
-        <img
-          src='https://kivuto.com/wp-content/uploads/2021/06/User_Authentication_Best_Practices_Image.jpg'
-          alt='Authentication Illustration'
-          className='rounded-lg h-96 w-full object-cover mb-6'
-        />
         <div>
           <p className='text-gray-700 mb-4'>
             This application is built using Next.js, a powerful React framework
